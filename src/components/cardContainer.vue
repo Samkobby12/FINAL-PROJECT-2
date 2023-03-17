@@ -1,0 +1,83 @@
+<template>
+    <div class="columns">
+      <div class="column is-flex gap= 10px">
+        <card v-for="travels in travelList" :data = "travels"/>
+      </div>  
+      <div class="card" @click="showDetails(travels)"></div>
+    </div>
+    <router-view />
+</template>
+
+
+<script>
+import card from './card.vue';
+
+
+const travels = [
+    {
+        id:"1",
+        Title: "A Trip to Hamburg",
+        Country: "Germany",
+        City: "Hamburg",
+        image:"https://a.cdn-hotels.com/gdcs/production57/d830/70f985c4-c6b3-4700-a11f-e7289de58ae5.jpg",
+        visitingDate:"2022/08/18",
+        author : "Sam",
+        authorImage: "",
+        
+    },
+    {
+        id:"2",
+        Title: "My First Visit To Barcelona",
+        Country: "Spain",
+        City: "Barcelona",
+        image:"https://katalonien-tourismus.de/wp-content/uploads/2020/11/GT-BARCELONA-SAGRADA-1.jpg",
+        visitingDate:"2022/01/23",
+        author :"Basti"
+        
+    },
+    {
+        id:"3",
+        Title: "Road Trip to Brussels",
+        Country: "Belgium",
+        City: "Brussels",
+        image:"https://www.tripsavvy.com/thmb/BvIyGwseKrcYhnGNj6aApra8oVw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Brussels-759893e698e0457c94643ff7b0ab74ac.jpg",
+        visitingDate:"2021/07/30",
+        author : "Sam"
+    },
+    {
+        id:"4",
+        Title: "A Visit to Genoa",
+        Country: "Italy",
+        City: "Genoa",
+        image:"https://static.independent.co.uk/2021/10/14/15/iStock-1179588168.jpg?width=1200&height=900",
+        visitingDate:"2020/06/01",
+        author :"Kian"
+    }
+    
+]
+
+
+
+export default {
+  props:{
+    value: String
+  },
+      data: function(){
+        return{
+          travelList : travels
+        }
+      },
+    // selectedItem: null,
+
+    methods: {
+    showDetails(value) {
+      // this.selectedItem = value;
+    },
+    
+  },
+    components: {
+            card,
+          
+        }
+    }
+</script>
