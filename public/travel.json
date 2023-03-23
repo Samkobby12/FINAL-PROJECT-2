@@ -6,7 +6,8 @@
         "City": "Hamburg",
         "image":"https://a.cdn-hotels.com/gdcs/production57/d830/70f985c4-c6b3-4700-a11f-e7289de58ae5.jpg",
         "visitingDate":"2022/08/18",
-        "author" : "Sam",
+        "author" : "Sam Asare",
+        "authorImg":"/public/images/pto.jpg",
         "Text":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
         
         
@@ -16,9 +17,10 @@
         "Title": "My First Visit To Barcelona",
         "Country": "Spain",
         "City": "Barcelona",
-        "image":"https://katalonien-tourismus.de/wp-content/uploads/2020/11/GT-BARCELONA-SAGRADA-1.jpg",
+        "image":"https://imgproxy.natucate.com/MYdAPvz9KFcFKal-ep_3NEIn9C5wIEWr19heoGtLZu0/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlemllbGUvNDI4YTYzZWUtMmYzOS00YmFjLTgwY2UtNmY2N2Y4Yzc1NzJlLzNlNmU2YmQ0NTktMTU1OTY1ODkzOS9zcGFuaWVuLWxhZW5kZXJpbmZvcm1hdGlvbmVuLXN0YWR0LW96ZWFuLXdhc3Nlci1uYXR1Y2F0ZS5qcGc",
         "visitingDate":"2022/01/23",
-        "author" :"Basti",
+        "author" :"Basti Liebentraut",
+        "authorImg":"/public/images/pto.jpg",
         "Text":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
 
         
@@ -30,7 +32,8 @@
         "City": "Brussels",
         "image":"https://www.tripsavvy.com/thmb/BvIyGwseKrcYhnGNj6aApra8oVw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Brussels-759893e698e0457c94643ff7b0ab74ac.jpg",
         "visitingDate":"2021/07/30",
-        "author" : "Zion",
+        "author" : "Zion John",
+        "authorImg":"/public/images/pto.jpg",
         "Text":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
 
     },
@@ -41,7 +44,44 @@
         "City": "Genoa",
         "image":"https://static.independent.co.uk/2021/10/14/15/iStock-1179588168.jpg?width=1200&height=900",
         "visitingDate":"2020/06/01",
-        "author":"Kian",
+        "author":"Kian OSei Adu",
+        "authorImg":"/public/images/pto.jpg",
+        "Text":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+
+    },
+    {
+        "id":"5",
+        "Title": "A  Journey to Ghana",
+        "Country": "Ghana",
+        "City": "Kumasi",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/7/74/Donald_Stewart%27s_Monument-_Kumasi.jpg",
+        "visitingDate":"2019/12/22",
+        "author":"Janet Sarpong",
+        "authorImg":"/public/images/pto.jpg",
+        "Text":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+
+    },
+    {
+        "id":"6",
+        "Title": "Awesome Trip to United Kingdom",
+        "Country": "United Kimgdom",
+        "City": "London",
+        "image":"https://eu-images.contentstack.com/v3/assets/blte218090c2a6fb1e2/bltb03c4c812e5a5ab5/6255a28cc7c6de290d0af567/london-skyline-g-1028621910.jpg",
+        "visitingDate":"2020/02/28",
+        "author":"Queenle Adu",
+        "authorImg":"/public/images/pto.jpg",
+        "Text":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+
+    },
+    {
+        "id":"7",
+        "Title": "A Visit to Tunisia",
+        "Country": "Tunisia",
+        "City": "Tunis",
+        "image":"https://international-horizons.com/wp-content/uploads/2022/05/Sidi-Bou-Said-1080x675.jpg",
+        "visitingDate":"2020/06/01",
+        "author":"OSei Adu",
+        "authorImg":"/public/images/pto.jpg",
         "Text":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
 
     }

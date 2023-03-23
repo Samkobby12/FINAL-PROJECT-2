@@ -8,10 +8,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
     "@mapbox/mapbox-gl-geocoder": "^5.0.1",
     "@studiometa/vue-mapbox-gl": "^2.0.4",
     "mapbox-gl": "^2.13.0",
     "mapbox-gl-vue": "^2.0.4",
+    "moment": "^2.29.4",
     "pinia": "^2.0.33",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"

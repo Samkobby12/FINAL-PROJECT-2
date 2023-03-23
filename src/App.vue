@@ -1,23 +1,23 @@
 <template>
   <div class="container">
-  <navBar />
-  <RouterView />
+    <navBar />
+    <RouterView />
+    <Appfooter />
   </div>
-  
 </template>
 
 <script>
 import navBar from './components/navBar.vue';
+import Appfooter from './components/Appfooter.vue';
 
 
 
 export default {
-    components: {
+  components: {
     navBar,
-}
+    Appfooter
   }
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
